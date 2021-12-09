@@ -5,7 +5,5 @@ then
   if [ "$SPIN_REPO_SOURCE_PATH" = "/home/spin/src/github.com/Shopify/shopify" ]
   then
     echo 'HIIIIIIIIIIIIIIII ASDFF 33'
-    cartridge insert ryancbahan/enable-sp-and-balance-beta-flag
-    . /cartridges/enable-sp-and-balance-beta-flag/setup.sh 1
   fi
 fi
